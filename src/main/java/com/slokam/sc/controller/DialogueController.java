@@ -28,7 +28,7 @@ public class DialogueController {
 		
 		
 		List<Dialogue> dialogues = dialogueService.getDialogues(scriptid);
-		
+		//hhhhhhhhhhhhhhhhhhhh
 		return dialogues;
 	}
 	@GetMapping("/vsChar/{scriptid}")
